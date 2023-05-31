@@ -1,15 +1,17 @@
-*{
+* {
     margin: 0;
     box-sizing: border-box;
     padding: 0;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Figtree', sans-serif;
 }
 
-body{
-    background-color: rgb(95,34,216);
+body {
+    background-color: rgb(95, 34, 216);
 }
 
-.card{
-    background: linear-gradient(140deg, rgb(71, 225, 212), rgb(69, 75, 81) );
+.card {
+    background: linear-gradient(140deg, rgb(71, 225, 212), rgb(69, 75, 81));
     width: 90%;
     max-width: 470px;
     color: white;
@@ -20,14 +22,14 @@ body{
 }
 
 
-.search-bar{
+.search-bar {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.search-bar input{
+.search-bar input {
     border: 0;
     outline: 0;
     height: 60px;
@@ -39,7 +41,7 @@ body{
     flex: 1;
 }
 
-.search-bar button{
+.search-bar button {
     border: 0;
     outline: 0;
     background: snow;
@@ -52,4 +54,9 @@ body{
 .search-bar button img {
     width: 22px;
     height: 24px;
+}
+
+.weather img{
+    width: 60px;
+    height: 60px;
 }
